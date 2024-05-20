@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "49885dd9-bb50-4dd5-b9d8-73c52d671dc1",
+		"name": "ExperienceIA",
+		"description": "StartFragment\n\n## Endpoints da API\n\nA API consiste nos seguintes endpoints:\n\n### 1\\. Listar Todos os Clientes\n\n- **GET** `/usuarios`\n    \n- **Descrição:** Retorna uma lista de todos os clientes.\n    \n- **Corpo da Requisição:** Nenhum.\n    \n- bashCopy codeGET {{baseUrl}}/usuarios\n    \n\n### 2\\. Criar Cliente\n\n- **POST** `/usuarios`\n    \n- **Descrição:** Adiciona um novo cliente.\n    \n- **Corpo da Requisição:** JSON com informações do cliente.\n    \n- jsonCopy code{ \"telefone\": \"123465\", \"email\": \"bruno@gmail.com\", \"cnpj\": \"3347516508\", \"nome\": \"Bruno\", \"tipoEmpresa\": \"varejo\"}\n    \n- bashCopy codePOST {{baseUrl}}/usuarios\n    \n\n### 3\\. Atualizar Cliente\n\n- **PUT** `/usuarios/{id}`\n    \n- **Descrição:** Atualiza os dados de um cliente específico.\n    \n- **Parâmetros de URL:** `id` - ID do cliente a ser atualizado.\n    \n- **Corpo da Requisição:** JSON com informações atualizadas do cliente.\n    \n- jsonCopy code{ \"telefone\": \"987654\", \"email\": \"brunonovo@gmail.com\", \"cnpj\": \"3347516508\", \"nome\": \"Bruno Novo\", \"tipoEmpresa\": \"varejo\"}\n    \n- bashCopy codePUT {{baseUrl}}/usuarios/1\n    \n\n### 4\\. Deletar Cliente\n\n- **DELETE** `/usuarios/{id}`\n    \n- **Descrição:** Remove um cliente com base no ID fornecido.\n    \n- **Parâmetros de URL:** `id` - ID do cliente a ser removido.\n    \n- **Corpo da Requisição:** Nenhum.\n    \n- bashCopy codeDELETE {{baseUrl}}/usuarios/1\n    \n\n### 5\\. Consultar Cliente por ID\n\n- **GET** `/usuarios/{id}`\n    \n- **Descrição:** Retorna os detalhes de um cliente específico.\n    \n- **Parâmetros de URL:** `id` - ID do cliente.\n    \n- **Corpo da Requisição:** Nenhum.\n    \n- bashCopy codeGET {{baseUrl}}/usuarios/1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34080098"
+	},
+	"item": [
+		{
+			"name": "Todos Clientes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Clientes Por ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cadastrar Cliente",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Remover Cliente",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Atualizar Cliente",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}
