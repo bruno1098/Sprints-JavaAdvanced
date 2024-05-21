@@ -431,7 +431,7 @@ Após iniciar a aplicação, você pode acessar `localhost:8080` em qualquer nav
 ![Diagrama de Classes](Sprint-JavaAdvanced/Images/Sprint2-Diagrama.png)
 
 ### Diagrama Lógico
-![Diagrama Lógico](https://raw.githubusercontent.com/bruno1098/Sprints-JavaAdvanced/main/Images/WhatsApp%20Image%202024-04-15%20at%2020.14.27.jpeg?raw=true)
+![Diagrama Lógico]()Sprint-JavaAdvanced/Images/WhatsApp Image 2024-04-15 at 20.14.28.jpeg
 
 ### Diagrama Relacional
-![Diagrama Relacional](https://raw.githubusercontent.com/bruno1098/Sprints-JavaAdvanced/main/Images/WhatsApp%20Image%202024-04-15%20at%2020.14.28.jpeg?raw=true)
+![Diagrama Relacional](https://github.com/bruno1098/Sprints-JavaAdvanced)
